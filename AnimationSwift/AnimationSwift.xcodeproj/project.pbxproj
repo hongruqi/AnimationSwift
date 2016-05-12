@@ -40,8 +40,6 @@
 		324B1FAB1CDB3E9400641835 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B1FA91CDB3E9400641835 /* LeftViewController.swift */; };
 		324B1FAC1CDB3E9400641835 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B1FAA1CDB3E9400641835 /* RightViewController.swift */; };
 		324B1FAF1CDB3E9C00641835 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B1FAE1CDB3E9C00641835 /* TitleButton.swift */; };
-		324B1FB21CDB3F0600641835 /* MCFireworksButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B1FB11CDB3F0600641835 /* MCFireworksButton.swift */; };
-		324B1FB41CDB429600641835 /* MCFireworksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324B1FB31CDB429600641835 /* MCFireworksView.swift */; };
 		3260DFC31CD056C900DA120E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3260DFC21CD056C900DA120E /* AppDelegate.swift */; };
 		3260DFC51CD056C900DA120E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3260DFC41CD056C900DA120E /* ViewController.swift */; };
 		3260DFC81CD056C900DA120E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3260DFC61CD056C900DA120E /* Main.storyboard */; };
@@ -84,8 +82,6 @@
 		324B1FA91CDB3E9400641835 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		324B1FAA1CDB3E9400641835 /* RightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		324B1FAE1CDB3E9C00641835 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
-		324B1FB11CDB3F0600641835 /* MCFireworksButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCFireworksButton.swift; sourceTree = "<group>"; };
-		324B1FB31CDB429600641835 /* MCFireworksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCFireworksView.swift; sourceTree = "<group>"; };
 		3260DFBF1CD056C900DA120E /* AnimationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3260DFC21CD056C900DA120E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3260DFC41CD056C900DA120E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -191,15 +187,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		324B1FB01CDB3EE900641835 /* MCFireworksButton */ = {
-			isa = PBXGroup;
-			children = (
-				324B1FB11CDB3F0600641835 /* MCFireworksButton.swift */,
-				324B1FB31CDB429600641835 /* MCFireworksView.swift */,
-			);
-			path = MCFireworksButton;
-			sourceTree = "<group>";
-		};
 		3260DFB61CD056C900DA120E = {
 			isa = PBXGroup;
 			children = (
@@ -220,7 +207,6 @@
 		3260DFC11CD056C900DA120E /* AnimationSwift */ = {
 			isa = PBXGroup;
 			children = (
-				324B1FB01CDB3EE900641835 /* MCFireworksButton */,
 				324B1FAD1CDB3E9C00641835 /* View */,
 				324B1FA81CDB3E9400641835 /* Sidebar */,
 				324B1FA11CDB3E8E00641835 /* DCPathButton */,
@@ -326,14 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				324B1FB21CDB3F0600641835 /* MCFireworksButton.swift in Sources */,
 				324B1FA71CDB3E8E00641835 /* DCPathItemButton.swift in Sources */,
 				32379AE71CD82FF00035EE0A /* SWRevealViewController.m in Sources */,
 				324B1FAC1CDB3E9400641835 /* RightViewController.swift in Sources */,
 				3260DFC51CD056C900DA120E /* ViewController.swift in Sources */,
 				324B1F9E1CDB3E8500641835 /* GroupAnimationController.swift in Sources */,
 				324B1FA51CDB3E8E00641835 /* DCPathButton.swift in Sources */,
-				324B1FB41CDB429600641835 /* MCFireworksView.swift in Sources */,
 				324B1FAB1CDB3E9400641835 /* LeftViewController.swift in Sources */,
 				324B1FA01CDB3E8500641835 /* TransitionAnimationController.swift in Sources */,
 				324B1F9D1CDB3E8500641835 /* ComprehensiveCaseController.swift in Sources */,
